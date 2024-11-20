@@ -1,0 +1,158 @@
+body {
+    overflow:scroll;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    display: inline-block;
+  }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 12px 12px;
+      margin-left: 15px;
+      text-decoration: none;
+      font-size: 16px;
+      font-family: 'Roboto';
+      transition: all .60s, color .30s;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: rgb(1, 73, 162);
+      color: white;
+    }
+    
+    .active {
+      background-color: rgb(2, 62, 138);
+      color: white;
+    }
+    
+    .form-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .container-nav{
+      display: flex;
+      align-items: center;
+      align-content: center;
+      position: relative;
+    }
+
+    .stat{
+      position: absolute;
+      right: 0px; 
+    }
+    .nav-icon{
+      margin-right: 20px;
+    }
+
+    .Register {
+      color: white;
+      margin-left: 8px;
+      font-weight: 16px;
+      width: 91px;
+      height: 41px;
+      border-radius: 5px;
+      border: none;
+      background: rgb(1, 73, 162);
+      transition: all .60s;
+    }
+    .Signin{
+      color: white;
+      margin-left: 8px;
+      font-weight: 16px;
+      width: 91px;
+      height: 41px;
+      border-radius: 5px;
+      border: none;
+      background: rgb(1, 73, 162);
+      transition: all .60s;
+    }
+
+    .Register:hover{
+      opacity: 0.7;
+      cursor: pointer;
+    }
+    .Register2:hover{
+      opacity: 0.7;
+      cursor: pointer;
+    } 
+    .Signin:hover{
+      opacity: 0.7;
+      cursor: pointer;
+    }
+
+    .placehoder-format{
+      width: 250px;
+      height: 40px;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      display:inline;
+    }
+    .box-format{
+      width: 250px;
+      height: 45px;
+      border-radius: 5px;
+    }
+    .box-format-school{
+      width: 227px;
+      height: 45px;
+      border-radius: 5px;
+    }
+
+    .placehoder-format-id{
+      width: 180px;
+      height: 41px;
+      border-radius: 5px;
+    }
+
+    .Register-container{
+      text-align: center;
+    }
+
+    .sex,.suffix{
+      width: 100px;
+      height: 43px;
+      border-radius: 5px;
+    }
+
+    .zipCode{
+      width: 110px;
+      height: 41px;
+      border-radius: 5px;
+    }
+
+    .type-manual{
+      width: 430px;
+      height: 45px;
+      margin-top: 5px;
+    }
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+/*Animations in placeholder*/
+input:focus::-webkit-input-placeholder {
+  font-size: .95em;
+  position: relative;
+  top: -12px; 
+  left: 2px;
+  transition: all 2s ease-in;
+}
+
+input::-webkit-input-placeholder {
+  transition: 2s ease-out;
+  color: black;
+}
