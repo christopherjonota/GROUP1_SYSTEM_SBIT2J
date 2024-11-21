@@ -1,6 +1,6 @@
 
 <?php 
-include ('php/connection.php');
+//include ('php/connection.php');
 include ('php/scripts.php');
 
 
